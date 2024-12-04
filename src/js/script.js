@@ -3,7 +3,7 @@ const x = document.querySelector("#lightbox");
 x.addEventListener("click", function() {
     x.close();
     });
-    const photos = document.querySelectorAll("img");
+    const photos = document.querySelectorAll("[data-full-img]");
 
     photos.forEach(image => {
         image.addEventListener("click", function() {

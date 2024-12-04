@@ -10,3 +10,27 @@
     border-radius: 10px;
     color: purple;
 }
+
+
+
+#lightbox {
+      animation: open 1s forwards;
+    }
+
+  @keyframes fond{
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 70%;
+    }
+  }
+
+  @keyframes open {
+    from {
+      transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+  }

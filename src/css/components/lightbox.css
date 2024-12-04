@@ -6,4 +6,7 @@
     opacity: 40%;
 }
 
-
+#lightbox {
+    border-radius: 10px;
+    color: purple;
+}

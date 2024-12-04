@@ -1,3 +1,9 @@
 /**
 * Lightbox
 */
+#lightbox::backdrop{
+    background: pink;
+    opacity: 40%;
+}
+
+
